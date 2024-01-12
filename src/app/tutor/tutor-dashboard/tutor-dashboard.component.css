@@ -1,0 +1,374 @@
+.thumbnail1
+{
+    background: url('../../../assets/Tutors-Profile.png')no-repeat;
+    background-size: cover;
+    padding-top: 62%;
+    padding-bottom: 13%;
+    padding-left: 10%;
+}
+.thumbnail2
+{
+    background: url('../../../assets/Tutor-invite.png')no-repeat;
+    background-size: cover;
+    padding-top: 62%;
+    padding-bottom: 13%;
+    padding-left: 10%;
+}
+.thumbnail3
+{
+    background: url('../../../assets/Tutor-Group-Class.png')no-repeat;
+    background-size: cover;
+    padding-top: 62%;
+    padding-bottom: 13%;
+    padding-left: 10%;
+}
+.thumbnail4
+{
+    background: url('../../../assets/Tutor-create-Groupclass.png')no-repeat;
+    background-size: cover;
+    padding-top: 62%;
+    padding-bottom: 13%;
+    padding-left: 10%;
+}
+.thumbnail5{
+    background: url('../../../assets/tutor-courses-list.png')no-repeat;
+    background-size: cover;
+    padding-top: 62%;
+    padding-bottom: 13%;
+    padding-left: 10%;
+}
+.thumbnail6
+{
+    background: url('../../../assets/Tutor-Create-Courses.png')no-repeat;
+    background-size: cover;
+    padding-top: 62%;
+    padding-bottom: 13%;
+    padding-left: 10%;;
+}
+.thumbnail7
+{
+    background: url('../../../assets/tutor-Group-Class-Booking.png')no-repeat;
+    background-size: cover;
+    padding-top: 62%;
+    padding-bottom: 13%;
+    padding-left: 10%;
+}
+.thumbnail8
+{
+    background: url('../../../assets/tutor-Payout-Request.png')no-repeat;
+    background-size: cover;
+    padding-top: 62%;
+    padding-bottom: 13%;
+    padding-left: 10%;
+}
+.thumbnail9
+{
+    background: url('../../../assets/Tutor-Calendar.png')no-repeat;
+    background-size: cover;
+    padding-top: 62%;
+    padding-bottom: 13%;
+    padding-left: 10%;
+}
+.thumbnail10
+{
+    background: url('../../../assets/Tutor-1-1-classbooking.png')no-repeat;
+    background-size: cover;
+    padding-top: 62%;
+    padding-bottom: 13%;
+    padding-left: 10%;
+}
+.thumbnail11
+{
+    background: url('../../../assets/Tutor-Course-Purchased.png')no-repeat;
+    background-size: cover;
+    padding-top: 62%;
+    padding-bottom: 13%;
+    padding-left: 10%;
+}
+.thumbnail12
+{
+    background: url('../../../assets/Tutor-Earning-dashboard.png')no-repeat;
+    background-size: cover;
+    padding-top: 62%;
+    padding-bottom: 13%;
+    padding-left: 10%;
+}
+.thumbnail13
+{
+    background: url('../../../assets/Tutor-Transactions.png')no-repeat;
+    background-size: cover;
+    padding-top: 62%;
+    padding-bottom: 13%;
+    padding-left: 10%;
+}
+.thumbnail14
+{
+    background: url('../../../assets/Tutor-Add-Bank-Info.png')no-repeat;
+    background-size: cover;
+    padding-top: 62%;
+    padding-bottom: 13%;
+    padding-left: 10%;
+}
+.thumbnail15
+{
+    background: url('../../../assets/Tutor-my-messages.png')no-repeat;
+    background-size: cover;
+    padding-top: 62%;
+    padding-bottom: 13%;
+    padding-left: 10%;
+}
+.thumbnails-container
+{
+    margin-top: 3%;
+}
+.thumbnail1 h3
+{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.thumbnail2 h3
+{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.thumbnail3 h3
+{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.thumbnail4 h3
+{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.thumbnail5 h3
+{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.thumbnail6 h3
+{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.thumbnail7 h3
+{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.thumbnail8 h3
+{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.thumbnail9 h3
+{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.thumbnail1 p
+{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.thumbnail1 p
+{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.thumbnail2 p
+{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.thumbnail3 p
+{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+.thumbnail4 p
+{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+.thumbnail5 p
+{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.thumbnail6 p
+{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+    .thumbnail7 p
+{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+.thumbnail8 p
+{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+.thumbnail9 p
+{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+    .thumbnail10 p{
+        color: #fff;
+               font-size: 12px;
+               font-weight: 400;
+               font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+           }
+    .thumbnail11 p{
+ color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .thumbnail12 p
+    {
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .thumbnail13 p{
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .thumbnail14 p{
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .thumbnail15 p{
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .thumbnail10 h3{
+color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+     .thumbnail11 h3{
+        color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+    
+    .thumbnail12 h3{
+        color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+    
+    .thumbnail13 h3{
+        color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+    
+    .thumbnail14 h3{
+        color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+    
+    .thumbnail15 h3{
+        color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+    
+.fa-arrow-right,span
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.fa-arrow-right
+{
+    margin-left: 3%;
+}
+
+
+.mainbody
+{
+    background: url('../../../assets/tutor-dashboard-bg.png')no-repeat;
+    background-position: bottom;
+    background-position-x: right;
+    padding-bottom: 14%;
+}
+.secondrow
+{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.lastrow
+{
+    padding-top: 2%;
+}

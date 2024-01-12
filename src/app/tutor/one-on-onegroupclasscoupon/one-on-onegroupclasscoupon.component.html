@@ -1,0 +1,173 @@
+<!-- <full-calendar [options]="calendarOptions"></full-calendar> -->
+<app-tutor-header></app-tutor-header>
+<div class="mainbg">
+<div class="fluid-container">
+    <div class="signinTitle">
+
+        <h1>Title  <strong><b>Here</b></strong></h1>
+
+    </div>
+    <div class="row">
+    <div class="col-md-6 Basic">
+        <button class="basic-btn">Basic Information</button>
+    </div>
+    <div class="col-md-6">
+        <button class="Coupon-btn">Coupon</button>
+    </div>
+    </div>
+    <div class="row signinheight">
+
+        <div class="col-md-12 col-sm-12 ">
+            <div class="container">
+
+
+
+
+
+                <div class="form-group signin">
+                   
+
+       <div class="row">
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="inputlabels">
+                                <p class="inputTitle">Name</p>
+                            </div>
+
+                            <div class="input-group">
+
+                                <input class="form-control" id="Name" name="name" type="text"
+                                    placeholder="Recipient’s Name" />
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="inputlabels">
+                                <p class="inputTitle">Code </p>
+                            </div>
+                            <div class="input-group">
+
+                                <input class="form-control" id="Alias" name="name" type="number"
+                                    placeholder="Account Number" />
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="inputlabels">
+                                <p class="inputTitle">Discount Type </p>
+                            </div>
+                            <select class="form-select selectoptionicon1">
+                                <option>Percent(%)</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="inputlabels">
+                                <p class="inputTitle">Discount Value</p>
+                            </div>
+                            <div class="input-group">
+
+                                <input class="form-control" id="Bank-Address" name="name" type="text"
+                                    placeholder="0" />
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-12">
+                        
+                        <div class="whoCanBook">
+                            <p>Limit Number of use</p>
+                        </div>
+
+                        <select class="form-select selectoptionicon6">
+                            <option>10</option>
+                        </select>
+                    </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-6 firstdate">
+                            <!-- <mat-form-field class="example-form-field">
+                                <mat-label>MM/DD/YYYY</mat-label>
+                                <input matInput [matDatepicker]="datepicker">
+                                
+                                <mat-datepicker-toggle matIconSuffix [for]="datepicker"></mat-datepicker-toggle>
+                                <mat-datepicker #datepicker>
+                                  <mat-datepicker-actions>
+                                    <button mat-button matDatepickerCancel>Cancel</button>
+                                    <button mat-raised-button color="primary" matDatepickerApply>Apply</button>
+                                  </mat-datepicker-actions>
+                                </mat-datepicker>
+                              </mat-form-field> -->
+                              <input type="date" id="start" name="trip-start" placeholder="MM/DD/YYYY"  />
+
+                              </div>
+                              <div class="col-md-6 firstdate">
+                            <!--   <mat-form-field class="example-form-field">
+                               
+                                <input matInput [matDatepicker]="datepicker">
+                                <mat-label>MM/DD/YYYY</mat-label>
+                                <mat-datepicker-toggle matIconSuffix [for]="datepicker"></mat-datepicker-toggle>
+                                <mat-datepicker #datepicker>
+                                  <mat-datepicker-actions>
+                                    <button mat-button matDatepickerCancel>Cancel</button>
+                                    <button mat-raised-button color="primary" matDatepickerApply>Apply</button>
+                                  </mat-datepicker-actions>
+                                </mat-datepicker>
+                              </mat-form-field> -->
+                              <input type="date" id="start" name="trip-start" placeholder="MM/DD/YYYY"  />
+
+                        </div>
+                      
+                    </div>
+                    
+                  <div class="row">
+                <div class="col-md-12 checkfield">
+                    <input  class="form-check-input" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1"> Active</label><br>    
+                </div>    
+                </div>
+                    <div class="row">
+
+                        <div class="col-md-10"></div>
+                        
+                        <div class="col-md-2 save">  <button class="save-btn">Save</button></div>
+                    </div>
+                   
+             
+<!-- 
+
+                    <div class="row">
+
+                        <div class="col-md-12">
+                            <input type="file" ng2FileSelect [uploader]="uploader">
+                            <div class="progess">
+                                <div class="progress-bar" role="progressbar" [ngStyle]="{width:uploader.progress}" >
+                                </div>
+
+                                <ul *ngFor="let item of uploader.queue">
+<li>{{item.file.name}}
+<button type="button" (click)="item.upload()" class="btn btn-primary btn-xs">Upload</button>
+<button type="button" (click)="item.remove()" class="btn btn-primary btn-xs">Remove</button>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div> -->
+
+
+                </div>
+
+            </div>
+            </div>

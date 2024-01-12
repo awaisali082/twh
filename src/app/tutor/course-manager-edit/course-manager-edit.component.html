@@ -1,0 +1,165 @@
+<app-tutor-header></app-tutor-header>
+<div class="course-manager-edit-banner">
+<div class="container">
+    <div class="row button-Option">
+        <div class="col-md-2">
+
+
+        </div>
+        <div class="col-md-2 first-btn"><button class="basic-button">Basic Info</button></div>
+        <div class="col-md-2"><button class="basic-button course">Course Goals</button></div>
+        <div class="col-md-2"><button class="basic-button course">Lecture Details</button></div>
+        <div class="col-md-1"><button class="basic-button">Coupon</button></div>
+        <div class="col-md-3"></div>
+    </div>
+</div>
+
+<!-- <full-calendar [options]="calendarOptions"></full-calendar> -->
+<div class="fluid-container">
+    <div class="row signinheight">
+
+        <div class="col-md-12 col-sm-12 ">
+            <div class="container">
+
+                <div class="form-group signin">
+                    <div class="row">
+                        <div class="col-md-1">
+
+                            <label class="checkbox">
+                                <input type="radio" name="videotype" value="upload"
+                                    class="ng-valid ng-dirty ng-touched">
+                                <span class="checkmark">Free</span>
+
+                            </label>
+
+                        </div>
+                        <div class="col-md-1">
+
+
+                            <label class="checkbox">
+                                <input type="radio" name="videotype" value="upload"
+                                    class="ng-valid ng-dirty ng-touched">
+                                <span class="checkmark">Paid</span>
+
+                            </label>
+
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="inputlabels">
+                                <p class="inputTitle">Course Title * </p>
+                            </div>
+
+                            <div class="input-group">
+
+                                <input class="form-control" id="name" name="name" type="text"
+                                    placeholder="Enter Title" />
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="inputlabels">
+                                <p class="inputTitle">Price ($)* </p>
+                            </div>
+                            <div class="input-group">
+
+                                <input class="form-control" id="Price" name="name" type="text"
+                                    placeholder="Enter Price" />
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="inputlabels">
+                                <p class="inputTitle">Course Categories* </p>
+                            </div>
+                            <select class="form-select selectoptionicon3">
+                                <option>Choose Categories</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="inputlabels">
+                                <p class="inputTitle">Subjects* </p>
+                            </div>
+
+                            <select class="form-select selectoptionicon4">
+                                <option>Choose Subjects</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="inputlabels">
+                                <p class="inputTitle">Topics *</p>
+                            </div>
+                            <select class="form-select selectoptionicon5">
+                                <option>Choose Topic</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="inputlabels">
+                                <p class="inputTitle">Age* </p>
+                            </div>
+
+                            <select class="form-select selectoptionicon7">
+                                <option>Choose Age</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+
+                        <div class="col-md-12">
+                            <div class="whoCanBook">
+                                <p>Course Grade *</p>
+                            </div>
+
+                            <select class="form-select selectoptionicon1">
+                                <option>Choose Grade</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="title-courseintroductory">
+                            <p>Course Introduction Video * <span>Expected Size: 320*285 pixels, (Maximum Size 1024MB)</span></p>
+                            <img src="../../../assets/Youtube-Banner-coursemanager.png">
+                            <img style="margin-top: 2%;" src="../../../assets/Drop-file-image.png">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="title-courseintroductory">
+                            <p>Course Image *<span>Expected Size: 320*285 pixels, (Maximum Size 1024 MB)</span></p>
+                            <img src="../../../assets/course-image-dropfile.png">
+                            <img style="margin-top: 2%;" src="../../../assets/Drop-file-image.png">
+                        </div>
+                    </div>
+                 <!--.............................. edit Description ..................................-->
+                    <div class="row">
+                        <div class="edit-description">
+                            <h2>Description<img src="../../../assets/edit-description-icon-tutor.png"></h2>
+                            <!-- <img src="../../../assets/description-Edit-text-banner.png"> -->
+                          <angular-editor id="editor1" [placeholder]="'Enter text here...'" [config]="config"></angular-editor>
+
+                          <p><img src="../../../assets/clock.png">Your course will not be approved without any lecture content. Please update it now.</p>
+                        </div>
+                    </div>
+
+<div class="row">
+    <div class="col-md-9"></div>
+    <div class="col-md-3 Continue-Button">
+    <button class="Course-Goals">Continue to Next Step >></button>    </div>
+</div>
+
+                </div>
+
+            </div>
+            </div>

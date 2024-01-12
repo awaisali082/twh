@@ -1,0 +1,213 @@
+.signin
+{
+ background: rgba(255, 253, 240, 1);
+ padding: 15% 15% 15% 15%;
+}
+.fb
+{
+  width: 100%;
+}
+#flexCheckIndeterminate:focus-visible
+{
+outline: none;
+}
+#flexCheckIndeterminate:focus
+{
+outline: none;
+box-shadow: none;
+border: 1px solid #6C757D;
+}
+.addon
+{
+  margin-top: 7%;
+}
+.signinTitle h1
+{
+  color: #343F75;
+  font-size: 28px;
+}
+.signinTitle p
+{
+  color: #6C757D;
+  font-size: 18px;
+
+}
+#flexCheckIndeterminate label,.form-check-label
+{
+  margin-top: 1px;
+  color: #343F75;
+  font-size: 13px;
+  font-weight: 300;
+}
+.form-check-input[type=checkbox]
+{
+  font-size: 1.2em;
+  margin-left: -6%;
+}
+.signinleft
+{
+  background-color: #fff;
+}
+.signinheight
+{
+  margin: 0 auto;
+  height: 100vh;
+}
+.or
+{
+  text-align: center;
+  margin-top: 10%;
+}
+input
+{
+  border: 1px solid #6C757D;
+  background: transparent;
+
+}
+#name
+{
+  color: #6C757D;
+  padding-right: 25px;
+  background: url("../assets/image/PROFILE.png") no-repeat 14px;
+  background-size: 4%;
+  border-radius: 5px;
+  margin-bottom: 3%;
+  padding-left: 5rem !important;
+  padding-top: 2.2rem;
+  padding-bottom: 2.2rem;
+  font-size: 14px;
+  color:#BCBCBC;
+  border: 1px solid #BCBCBC;
+}
+#password
+{
+  color:#6C757D; 
+  background: url("../../assets/lockpass.png") no-repeat 14px,url("../../assets/eyeHide.png") no-repeat  33.4vw;
+  background-size: 3.5%;
+  border-radius: 5px;
+  margin-bottom: 3%;
+  padding-left: 5rem !important;
+  padding-top: 2.2rem;
+  padding-bottom: 2.2rem;
+  font-size: 14px;
+  border: 1px solid #BCBCBC;
+}
+.title-aftersignin
+{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#name,#password::placeholder
+{
+color: #6C757D;
+}
+.lines
+{
+  text-align: center;
+}
+.lines img
+{
+  width: 100%;
+  margin-top: 6%;
+}
+.fbaddons
+{
+  padding: 0px;
+}
+
+.Forgot
+{
+  text-align: right;
+}
+.signinBtn
+{
+  width: 100%;
+  background: #0000;
+  border: 2px solid #343F75;
+  padding: 11px;
+  border-radius: 5px;
+  margin-top: 2%;
+  font-weight: 600;
+  
+  font-size: 18px;
+
+  color: #343F75;
+}
+
+.btn1
+{
+  background: url("../assets/image/Vector.png") no-repeat 1px;
+  padding-left: 17%;
+  font-weight: 700;
+  font-size: 14px;
+  color: #6C757D;
+
+}
+
+.btn2
+{
+  background: url("../assets/image/google.png") no-repeat 1px;
+  padding-left: 20%;
+  font-weight: 700;
+  font-size: 14px;
+  color: #6C757D;
+}
+
+.btn3
+{
+  background: url("../assets/image/Apple.png") no-repeat 1px;
+  padding-left: 18%;
+  font-weight: 700;
+  font-size: 14px;
+  color: #6C757D;
+}
+
+.addons
+{
+  margin-left: 3%;
+  margin-top: 4%;
+}
+
+#snackbar {
+  visibility: hidden; /* Hidden by default. Visible on click */
+  min-width: 250px; /* Set a default minimum width */
+  margin-left: -125px; /* Divide value of min-width by 2 */
+  background-color: #333; /* Black background color */
+  color: #fff; /* White text color */
+  text-align: center; /* Centered text */
+  border-radius: 2px; /* Rounded borders */
+  padding: 16px; /* Padding */
+  position: fixed; /* Sit on top of the screen */
+  z-index: 1; /* Add a z-index if needed */
+  left: 50%; /* Center the snackbar */
+  bottom: 30px; /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+  visibility: visible; /* Show the snackbar */
+  /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+  However, delay the fade out process for 2.5 seconds */
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}

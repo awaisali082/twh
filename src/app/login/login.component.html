@@ -1,0 +1,94 @@
+<div *ngIf="toastcondition" id="snackbar"></div>
+<div class="fluid-container">
+  <div class="row signinheight">
+    <div class="col-md-4 signinleft">
+    </div>
+    <div class="col-md-8 col-sm-12 signin">
+      <div class="container">
+      <div class="signinTitle">
+
+        <h1>Sign <strong>In</strong></h1>
+      </div>
+      <p class="title-aftersignin"style="color:#6C757D;font-size:16px;font-weight:400;">Don’t have an account yet? <span ><a style="color:#343F75;font-size:18px;font-weight:600;  text-decoration: none;"routerLink="/registration"> Create Account</a></span></p>
+      <form>
+    
+
+        <div class="form-group ">
+         
+          <div class="input-group">
+           
+           <input class="form-control"[(ngModel)]=Username id="name" name="name" type="text" placeholder="Enter your name"/>
+          
+          </div>
+
+          <div class="input-group">
+           
+            <input class="form-control bi-person" [(ngModel)]=Password id="password" name="name" type="password" placeholder="Password"/>
+           
+           </div>
+         
+          
+
+          <div class="row">
+        <div class="col-md-6">
+           <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+            <label class="form-check-label" for="flexCheckIndeterminate">
+              Remember Me
+            </label>
+          </div>
+          </div>
+          <div class="col-md-6">
+          <div class="form-check Forgot ">
+          
+            <label class="form-check-label" routerLink="/forgotpassword" for="flexCheckIndeterminate">
+              Forgot Password?
+            </label>
+          </div>
+          </div>
+        </div>
+          <button class="signinBtn" (click)="sendStudentLogin()">Sign In</button>
+         </div>
+        
+
+        <div class="row ">
+          <div class="col-md-12">
+           <div class="lines">
+            <img src="../../assets/orlines.png"/>
+           </div>
+            
+          </div>
+         
+        </div>
+        <div class="row addon">
+          <div class="col-md-4 ">
+          <!--   <button class="btn btn1">Continue with Facebook</button> -->
+          <img  class="fb"src="../../assets/Facbook-signin.png">
+          </div>
+          <div class="col-md-4">
+        <!--     <button class="btn btn2">Continue with Google</button> -->
+        <img  class="fb" src="../../assets/SignIn-Google.png">
+          
+          </div>
+          <div class="col-md-4">
+            <!-- <button class="btn btn3">Continue with Apple</button> -->
+            <img  class="fb" src="../../assets/Signin-Apple.png">
+          </div>
+
+        </div>
+        
+
+      </form>
+    </div>
+    </div>
+  </div>
+<!--   <div data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
+    <div><h3>1</h3></div>
+    <div><h3>2</h3></div>
+    <div><h3>3</h3></div>
+    <div><h3>4</h3></div>
+    <div><h3>5</h3></div>
+    <div><h3>6</h3></div>
+  </div> -->
+</div>
+

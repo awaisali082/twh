@@ -1,0 +1,257 @@
+
+<app-tutor-header></app-tutor-header>
+<div class="fluid-container">
+    <div class="row signinheight">
+
+        <div class="col-md-12 col-sm-12 ">
+            <div class="container">
+
+
+
+
+
+                <div class="form-group signin">
+                    <div class="signinTitle">
+
+                        <h1>Create New <strong><b>Group Class</b></strong></h1>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1">
+
+                            <label class="checkbox">
+                                <input type="radio" name="videotype" value="upload"
+                                    class="ng-valid ng-dirty ng-touched">
+                                <span class="checkmark">Free</span>
+
+                            </label>
+
+                        </div>
+                        <div class="col-md-1">
+
+
+                            <label class="checkbox">
+                                <input type="radio" name="videotype" value="upload"
+                                    class="ng-valid ng-dirty ng-touched">
+                                <span class="checkmark">Paid</span>
+
+                            </label>
+
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="inputlabels">
+                                <p class="inputTitle">Group Class Title * </p>
+                            </div>
+
+                            <div class="input-group">
+
+                                <input class="form-control" id="name" name="name" type="text"
+                                    placeholder="Enter Title" />
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="inputlabels">
+                                <p class="inputTitle">Alias* </p>
+                            </div>
+                            <div class="input-group">
+
+                                <input class="form-control" id="Alias" name="name" type="text"
+                                    placeholder="Enter Alias" />
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="inputlabels">
+                                <p class="inputTitle">Choose Age* </p>
+                            </div>
+                            <select class="form-select selectoptionicon">
+                                <option>Choose Age</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="inputlabels">
+                                <p class="inputTitle">Choose Grade* </p>
+                            </div>
+
+                            <select class="form-select selectoptionicon1">
+                                <option>Choose Grade</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="inputlabels">
+                                <p class="inputTitle">Category *</p>
+                            </div>
+                            <select class="form-select selectoptionicon3">
+                                <option>Choose Age</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="inputlabels">
+                                <p class="inputTitle">Subject* </p>
+                            </div>
+
+                            <select class="form-select selectoptionicon4">
+                                <option>Choose Subjects</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="inputlabels">
+                                <p class="inputTitle">Topic * </p>
+                            </div>
+                            <select class="form-select selectoptionicon5">
+                                <option>Choose Topic</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="inputlabels">
+                                <p class="inputTitle">Price ($)* </p>
+                            </div>
+
+                            <input class="form-control" id="Price" name="name" type="text" placeholder="Enter Price" />
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-12">
+                            <div class="whoCanBook">
+                                <p>Maximum number of people who can book *</p>
+                            </div>
+
+                            <select class="form-select selectoptionicon6">
+                                <option>10</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- DropFile -->
+
+                    <div class="row">
+                        <div class="title-courseintroductory">
+                            <p>Main Image * <span>Expected Size: 320*285 pixels, (Maximum Size 1024MB)</span></p>
+
+                            <img src="../../../assets/Drop-file-image.png">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="title-courseintroductory">
+                            <p>Course Material * <span>Expected Size: 320*285 pixels, (Maximum Size 1024MB)</span></p>
+
+                            <img src="../../../assets/Drop-file-image.png">
+                        </div>
+                    </div>
+
+                    <!--.............................. edit Description ..................................-->
+                    <div class="row">
+                        <div class="edit-description">
+                            <h2>Description<img src="../../../assets/edit-description-icon-tutor.png"></h2>
+                            <!-- <img src="../../../assets/description-Edit-text-banner.png"> -->
+                            <angular-editor id="editor1" [placeholder]="'Enter text here...' "
+                                [config]=config></angular-editor>
+
+                            <p><img src="../../../assets/clock.png">Your course will not be approved without any lecture
+                                content. Please update it now.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-9"></div>
+                        <div class="col-md-3 Continue-Button">
+                            <button class="Course-Goals">Save</button>
+                        </div>
+                    </div>
+
+
+                    <!-- ............................................Update Slots........................ -->
+                    <div class="signinTitle">
+
+                        <h2>Update Slot <strong><b>for Group Class</b></strong></h2>
+                        <div class="row row-spacing">
+                            <div class="col-md-6">
+                                <div class="titlewithcolor">
+                                    <h2><img style="padding-right: 2%;" src="../../../assets/Red.png"> This group class slots</h2>
+                                    </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="titlewithcolor">
+                                    <h2><img style="padding-right: 2%;" src="../../../assets/Mustard.png"> 1on 1 classes</h2>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="row row-spacing">
+                            <div class="col-md-6">
+                                <div class="titlewithcolor">
+                                    <h2><img style="padding-right: 2%;" src="../../../assets/darkblue.png"> This group class slots</h2>
+                                    </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="titlewithcolor">
+                                    <h2><img style="padding-right: 2%;" src="../../../assets/grey.png"> Expired/Not available slots Today</h2>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <full-calendar [options]="calendarOptions"></full-calendar>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-md-12">
+
+                        <ejs-richtexteditor  id="editor-description" *ngIf="true">
+                            <ng-template #valueTemplate>
+                                <div class="editable-description">
+                        <textarea class="editable-textarea" placeholder="300 words only">300 words only</textarea>
+                            </div>
+                            <div class="submit-descriptionbtn">
+                                <button>Submit</button>
+                                                        </div>
+                            </ng-template>
+                            </ejs-richtexteditor>
+                            </div>
+                            </div>
+                    </div>
+                    <!-- 
+
+                    <div class="row">
+
+                        <div class="col-md-12">
+                            <input type="file" ng2FileSelect [uploader]="uploader">
+                            <div class="progess">
+                                <div class="progress-bar" role="progressbar" [ngStyle]="{width:uploader.progress}" >
+                                </div>
+
+                                <ul *ngFor="let item of uploader.queue">
+<li>{{item.file.name}}
+<button type="button" (click)="item.upload()" class="btn btn-primary btn-xs">Upload</button>
+<button type="button" (click)="item.remove()" class="btn btn-primary btn-xs">Remove</button>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div> -->
+
+
+                </div>
+
+            </div>
